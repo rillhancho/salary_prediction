@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+    <h1>Prediction Result</h1>
+    <p><strong>Years of Experience:</strong> {{ prediction.years_experience }}</p>
+    <p><strong>Predicted Salary:</strong> ${{ prediction.predicted_salary|floatformat:2 }}</p>
+
+    <div style="margin-top: 20px;">
+        <a href="/" style="text-decoration: none; padding: 10px 20px; background-color: #007BFF; color: #fff; border-radius: 5px;">Make Another Prediction</a>
+    </div>
+</body>
+</html>
+
+
+
